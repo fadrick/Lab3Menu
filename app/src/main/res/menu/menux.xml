@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Rate us "
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="always"
+        ></item>
+
+
+    <item android:title="share app"
+        android:id="@+id/item2"
+        ></item>
+    <item android:title="Item">
+
+        <menu>
+
+            <item
+                android:title="item4"
+                android:id="@+id/item4"
+
+                ></item>
+
+        </menu>
+
+    </item>
+
+
+</menu>
